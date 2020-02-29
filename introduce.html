@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1주차 자기소개 페이지</title>
+    <link rel="stylesheet" href="introduce_style.css" type="text/css">
+    <!-- Google Font에서 가져온 Roboto-->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet" </head> <body>
+
+    <div class="main-container">
+
+        <header>
+
+            <!-- 네비게이션 메뉴-->
+            <nav>
+                <div class="nav-container">
+                    <a href="#profile-img"class="nav-item" id="nav-header">Sung Jun Jin</a>
+                    <a href="#about" class="nav-item">About</a>
+                    <a href="#education" class="nav-item">Education</a>
+                    <a href="#skills-certificates" class="nav-item">Skills & Certificates</a>
+                </div>
+                <hr>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+
+        <section class="content">
+
+            <div class='profile'>
+                <figure>
+                    <img src="./profile.jpeg.jpg" alt="Image load Failed" class="profile-img" id="profile-img">
+                    <figcaption>
+                        <h1>Sung-Jun <span>Jin</span></h1>
+                        <h2>Junior Developer</h2>
+                        <p>58, Convensia-daero 130beon-gil, Yeonsu-gu, Incheon, Republic of Korea</p>
+                        <p>(+82) 10-5338-7244 · jinsungjun94@gmail.com</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- About -->
+
+            <div class="about" id="about">
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                <p>Hi, Welcome to my website :)<br><br> My name is Sung-Jun Jin and I am a junior developer living in
+                    South Korea, Incheon <br><br> I am currently studying in <a href="https://wecode.co.kr/"
+                        target="_blank">Wecode</a></p>
+            </div>
+
+
+
+            <!-- Education -->
+
+            <div class="education" id="education">
+                
+                <header>
+                    <h2>Education</h2>
+                </header>
+
+                <table>
+                    <!-- 신송고등학교 -->
+                    <tr>
+                        <th><a href="http://shinsong-h.icehs.kr" target="_blank" />Shinsong High School</a></th>
+                    </tr>
+
+                    <tr>
+                        <td>Liberal Arts</td>
+                    </tr>
+
+                    <tr>
+                        <td id="address">56, Sinsong-ro 6beon-gil, Yeonsu-gu, Incheon, Republic of Korea</td>
+                        <td id="year">2010 ~ 2012</td>
+                    </tr>
+
+
+                    <!-- 명지대학교 -->
+                    <tr>
+                        <th><a href="http://mju.ac.kr" target="_blank" />Myoungji University</a></th>
+                    </tr>
+
+                    <tr>
+                        <td>Bachelor of Telecommunication Engineering</td>
+                    </tr>
+
+                    <tr>
+                        <td id="address">116, Myongji-ro, Cheoin-gu, Yongin-si, Gyeonggi-do, Republic of Korea</td>
+                        <td id="year">2013 ~ 2020</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Skills & Certificates -->
+
+            <div class="skills-certificates" id="skills-certificates">
+
+                <header>
+                    <h2>Skills & Certificates</h2>
+                </header>
+
+                <!-- 자격증 테이블 -->
+                <table>
+                    <!-- 정보처리기사 -->
+                    <tr>
+                        <th>Information Processing Engineer</th>
+                        <td id="year">2019</td>
+                    </tr>       
+                    
+                </table>
+            </div> 
+
+        </section>
+
+        <!-- 연락 form -->
+        
+        <section class="contact">
+            <header>
+                <h2>Contact Me</h2>
+            </header>
+
+            <form  method="POST">
+                <input type="text" name="name" value="name" class="input-name">
+                <input type="text" name="email" value="email" class="input-email"> <br>
+                <textarea name="message" value="message" class="input-message" rows="10" cols="45"></textarea> <br>
+                <input type="submit" value="Send">
+            </form>
+
+        </section>
+
+    </div>
+
+       <!-- footer -->
+
+       <footer>
+
+        <hr>
+
+        <div class="foot-container">
+
+            <a href="https://github.com/sungjun-jin" target="_blank" class="logo">
+                <div id="github-logo" class="logo"></div>
+            </a>
+
+            <a href="https://www.instagram.com/94__sjjjj/" target="_blank" id="insta-logo" class="logo">
+                <div id="insta-logo"></div>
+            </a>
+
+            <a href="https://velog.io/@sungjun-jin" target="_blank">
+                <h4 class="velog-link">Velog</h4>
+            </a>
+
+            <p>Last Updated in 2020-02-17</p>
+        </div>
+
+    </footer>
+    
+
+    </body>
+
+</html>

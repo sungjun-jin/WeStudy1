@@ -1,0 +1,349 @@
+body {
+
+    /* 구글 폰트에서 가져온 Fjalla One 폰트 */
+    font-family: "Fjalla One";
+    /* margin값 초기화 */
+    margin: 0px;
+
+}
+
+.main-container {
+
+    /* 메인 컨테이너 */
+
+    display: flex;
+    flex-direction: column;    
+    /* footer와의 간격 조절 */
+    margin-bottom: 30px;
+}
+
+
+a {
+    /* Wecode, 고등학교, 대학교 link */
+    /* a 태그 파란색, 밑줄 효과 빼기 */
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-container{
+
+    /* 네비게이션 메뉴 컨테이너 */
+
+    background-color: #ff9933;
+    display: flex;
+    /* default 값*/
+    flex-direction: row;
+    height: 100px;
+    margin: 30px;
+    
+}
+
+.nav-container a {  
+
+    /* 네비게이션 아이템, About, Education, Skills & Certificates */
+
+    color: white;
+    border: 1px solid white;
+    flex-grow: 1;
+    padding-top: 35px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 25px;
+}   
+
+#nav-header {
+
+    /* 네비게이션 아이템, Sung Jun Jin */
+
+    padding-top: 20px;
+    /* flex-grow로 더 많은 공간을 차지 */
+    flex-grow: 3;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+
+    min-width: 500px;
+   
+}
+
+#nav-header:hover {
+
+    /* 네비게이션 아이템, Sung Jun Jin에 커서를 올렸을 때 */
+
+    color: #ff9933;
+    background-color: white;
+    border: 2px solid #ff9933;
+
+}
+
+.nav-item:hover {
+
+    /* 네비게이션 아이템, About, Education, Skills & Certificates에 커서를 올렸을 때 */
+
+    color: #ff9933;
+    background-color: white;
+    border: 2px solid #ff9933;
+}
+
+
+hr {
+
+    border: 1px solid #ff9933;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.content {
+    /* 네이게이션의 position이 fixed 이므로 */
+    /* 네비게이션 메뉴의 크기만큼 내려준다 */
+    margin-top: 100px;
+}
+
+.profile {
+
+    /* 프로필 이미지 위치 */
+
+    margin-top: 100px;
+}
+
+.profile-img {
+
+    /* 프로필 이미지 속성 */
+
+    width: 400px;
+    height: auto;
+    border: 5px solid #ff9933;
+    /* 이미지 원형으로 만들기 */
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.profile figcaption {
+
+    /* 프로필 설명 위치 */
+
+    margin-top: -30px;
+    margin-left: 39%;
+}
+
+.profile figcaption h1 {
+
+    /* 프로필 이름 Sung-Jun Jin */
+
+    font-size: 70px;
+}
+
+.profile figcaption h2 {
+
+    /* 프로필 Junior Developer */
+    
+    margin-top: -40px;
+    font-size: 30px;
+}
+
+.profile span {
+
+    /* Jin */
+
+    color: #ff9933;
+
+}
+
+.profile p {
+
+    /* 프로필 주소, 전화번호, Gmail */
+
+    color: gray;
+}
+
+.about,
+.education,
+.skills-certificates,
+.contact {
+
+    /* About, Education, Skills & Certificates 위치, 글꼴 및 색상 */
+
+    margin-top: 50px;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 40%;
+    /* 전체 글의 색깔 */
+    color: gray;
+
+}
+
+.about h2 {
+
+    /* About Me */
+
+    font-size: 30px;
+    color: black;
+}
+
+.education {
+
+    /* 학력 위치 */
+
+    margin-top: 50px;
+}
+
+.education h2 {
+
+    /* Education */
+
+    font-size: 30px;
+    color: black;
+    height: 20px;
+
+
+}
+
+table {
+
+    /* 학력 테이블 가로, padding 설정 */
+
+    width: 600px;
+    padding: 10px;
+}
+
+th {
+
+    /* 학력 테이블 heading */
+    /* Shinsong High School, Myoungji University */
+
+    font-size: 20px;
+    color: black;
+    height: 50px;
+
+
+}
+
+td {
+
+    /* 학력 테이블 전공  */
+    /* Liberal Arts, Bachelor of Telecommunication Engineering */
+    font-size: 15px;
+}
+
+#year,
+#address {
+
+    /* 학력 테이블 주소, 기간  */
+
+    font-size: 12px;
+
+}
+
+.skills-certificates h2 {
+
+    /* Skills & Certifications 제목 */
+
+    font-size: 30px;
+    color: black;
+}
+
+form {
+
+    /* Contact Me form */
+
+    width: 600px;
+    margin-top: 30px; 
+}
+
+.contact h2 {
+
+       /* Contact Me */
+
+        font-size: 30px;
+        color: black;
+        height: 20px;
+}
+
+.input-name, .input-email {
+
+    /* 성명, 이메일 크기 조정 */
+
+    width: 30%;
+    height: 25px;
+}
+
+.input-message {
+
+    /* 메세지 크기 조정 */
+
+    width: 61%;
+    margin-top: 20px;
+}
+
+
+
+/* Footer */
+
+
+.foot-container {
+
+    /* Footer-Container */
+    display: flex;
+    /* 가로 정렬 */
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.logo {
+
+    /* 인스타그램, 깃허브 로고 위치 설정 */
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.velog-link {
+
+    /* Velog 링크 위치 설정 */
+
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#github-logo {
+
+    /* 깃허브 로고 크기, 이미지 설정 */
+
+    width: 32px;
+    height: 32px;
+    background-image: url("./GitHub-Mark-32px.png");
+    background-size: 100%;
+
+}
+
+#insta-logo {
+
+    /* 인스타그램 로고 크기, 이미지 설정 */
+
+    width: 32px;
+    height: 32px;
+    background-image: url("glyph-logo_May2016.png");
+    background-size: 100%;
+    margin-right: 20px;
+}
+
+.foot-container p {
+
+    /* Last Updated 위치, 글자색 설정 */
+
+    margin-left: 78%;
+    margin-top: 3px;
+    color: #ff9933;
+
+}
